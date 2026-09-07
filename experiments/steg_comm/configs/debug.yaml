@@ -5,3 +5,9 @@ experiments:
       function_kwargs:
         n_eval: 2
         n_values: 3
+  - config:
+      name: debug_self_scheme
+      function_kwargs:
+        n_eval: 2
+        n_values: 3
+        model_generated_scheme: true
