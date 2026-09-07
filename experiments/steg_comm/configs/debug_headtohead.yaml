@@ -1,0 +1,45 @@
+common_root: configs/base.yaml
+common_patch:
+  function_kwargs:
+    n_eval: 2
+    n_values: 3
+experiments:
+- config_axes:
+  - - name: dbgcap
+      function_kwargs:
+        scheme: 'Each word encodes one value via its capitalization: normal capitalization
+          (e.g. ''Hello'') encodes 0, all lowercase (e.g. ''hello'') encodes 1, ALL CAPS (e.g.
+          ''HELLO'') encodes 2. Encode values word by word from the start of the text. If
+          there are more words than values, write the remaining words normally.'
+    - name: dbgnew
+      function_kwargs:
+        scheme: 'Each sentence encodes one value via the word it begins with, using three
+          disjoint groups of opening words. Group 0 (encodes 0) is the determiners: ''The'',
+          ''A'', ''An'', ''This'', ''These'', ''Their''. Group 1 (encodes 1) is the time and
+          place words: ''In'', ''When'', ''At'', ''During'', ''After'', ''Before''. Group
+          2 (encodes 2) is the cause and contrast words: ''Because'', ''Although'', ''Though'',
+          ''Despite'', ''Whereas'', ''Unless''. Encode the values sentence by sentence from
+          the start of the text, one value per sentence, in order: the first sentence carries
+          the first value, the second sentence the second value, and so on. Every one of these
+          sentences MUST begin with a word from the listed group, and never with any other
+          word such as a name or a number. Write flowing paragraphs of completely normal,
+          fluent prose with ordinary capitalization, spelling and punctuation. Do not use
+          bullet points, numbered lists, headings or line breaks.'
+  - - name: s0
+      function_kwargs:
+        seed: 0
+    - name: s1
+      function_kwargs:
+        seed: 1
+    - name: s2
+      function_kwargs:
+        seed: 2
+    - name: s3
+      function_kwargs:
+        seed: 3
+    - name: s4
+      function_kwargs:
+        seed: 4
+    - name: s5
+      function_kwargs:
+        seed: 5
