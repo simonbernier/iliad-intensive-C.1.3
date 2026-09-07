@@ -1,0 +1,11 @@
+{
+  "model": "openai/gpt-5-nano",
+  "n_eval": 8,
+  "n_values": 6,
+  "value_range": 3,
+  "temperature": 1.0,
+  "seed": 0,
+  "n_exact": 2,
+  "output_exact": 0.25,
+  "output_correct": 0.5208333333333334
+}

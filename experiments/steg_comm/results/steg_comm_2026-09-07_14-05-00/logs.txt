@@ -1,0 +1,38 @@
+2026-09-07 14:05:00 config_tools    INFO     ========== Config Dict ===========
+Config(name='steg_comm',
+       function_name='run_steg',
+       time_stamp_name=True,
+       time_stamp_group=False,
+       function_kwargs={'max_tokens': 8000,
+                        'model': 'openai/gpt-5-nano',
+                        'n_eval': 8,
+                        'n_values': 6,
+                        'seed': 0,
+                        'temperature': 1.0,
+                        'value_range': 3},
+       function_args=None,
+       log_file_path='results/RUN_NAME/logs.txt',
+       save_config_path='results/RUN_NAME/config.yaml',
+       wandb_project=None,
+       wandb_entity=None,
+       wandb_group=None,
+       wandb_tags=None,
+       instance=None)
+2026-09-07 14:05:00 config_tools    INFO     Run Name: 'steg_comm_2026-09-07_14-05-00'
+2026-09-07 14:05:00 config_tools    INFO     Saved config to: results/steg_comm_2026-09-07_14-05-00/config.yaml
+2026-09-07 14:05:01 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:01 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:01 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:01 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:02 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:02 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:02 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:02 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:05 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:05 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:09 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:12 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:13 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:14 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:15 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 14:05:25 _client         INFO     HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
